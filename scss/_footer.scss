@@ -1,0 +1,19 @@
+@use 'variables' as *;
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: $color-texto-claro;
+  font-size: 0.9rem;
+
+  a {
+    color: $color-texto-claro;
+    text-decoration: none;
+    margin: 0 8px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

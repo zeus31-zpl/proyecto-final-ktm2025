@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+@use 'mixins' as *;
+@media (max-width: 768px) {
+  .index-header-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}

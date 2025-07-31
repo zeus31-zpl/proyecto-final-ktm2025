@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin responsive-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

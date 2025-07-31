@@ -1,0 +1,11 @@
+@use 'variables' as *;
+
+body {
+  font-family: $font-primary;
+  margin: 0;
+  padding: 0;
+  background-color: $color-rojo-fondo;
+  color: $color-texto-oscuro;
+  line-height: 1.6;
+}
+

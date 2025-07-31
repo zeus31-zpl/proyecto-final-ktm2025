@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+.contacto form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contacto label {
+  font-weight: 500;
+}

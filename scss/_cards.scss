@@ -1,0 +1,33 @@
+@use 'variables' as *;
+
+.info {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px 6px 0 0;
+  }
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: $color-naranja-ktm;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #333;
+  font-size: 1rem;
+}

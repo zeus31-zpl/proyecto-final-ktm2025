@@ -1,0 +1,27 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: $gris-claro;
+
+  &-img {
+    width: 50%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    display: block;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: $color-naranja-claro;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+}
