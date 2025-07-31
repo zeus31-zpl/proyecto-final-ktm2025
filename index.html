@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>KTM Argentina</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <!--CSS Personalizado-->
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+   <main>
+      <!--header-->
+      <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+          <img class="logotipo" src="./imagen/Logo.png" alt="logotipo de KTM" height="60" />
+          <nav aria-label="Navegación principal">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="modelos.html">Modelos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="servicios.html">Servicios</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+      <!-- Sección Hero -->
+      <section class="hero bg-light py-5 text-center">
+        <div class="container">
+          <img src="./imagen/Fondo-KTM.jpeg"alt="imagen principal" class="img-fluid mb-4 rounded hero-img"/>
+          <h1 class="display-4">Bienvenidos a KTM</h1>
+          <p class="lead">Este es el sitio oficial de nuestra marca de motocicletas de alto rendimiento</p>
+          <a href="contacto.html" class="btn-ktm">Contactanos</a>
+        </div>
+      </section>
+      
+      <!-- Sección Galería de Modelos -->
+      <section class="galeria py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-4">Motos mas vendidas</h2>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <img src="./imagen/KTM 125 SX 2025.png" class="img-fluid rounded" alt="KTM modelo 1"/>
+            </div>
+            <div class="col-md-4 mb-4">
+              <img src="./imagen/KTM_990_Aventure.png" class="img-fluid rounded" alt="KTM modelo 2"/>
+            </div>
+            <div class="col-md-4 mb-4">
+              <img src="./imagen/KTM-1290_Super_Adventure.png" class="img-fluid rounded" alt="KTM modelo 3"/>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Sección de Tabla de Modelos -->
+      <section class="modelos py-5 bg-white">
+        <div class="container">
+          <h2 class="text-center mb-4">Especificaciones Técnicas</h2>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Modelo</th>
+                <th>Motor</th>
+                <th>Cilindrada</th>
+                <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>KTM 125 Xc-s</td>
+                <td>Monocilíndrico</td>
+                <td>125 cc</td>
+                <td>$20.904.000</td>
+              </tr>
+              <tr>
+                <td>ktm 990 AVENTURE</td>
+                <td>Monocilíndrico</td>
+                <td>990 cc</td>
+                <td>$34.686.000</td>
+              </tr>
+              <tr>
+                <td>ktm 1290 AVENTURE</td>
+                <td>Monocilíndrico</td>
+                <td>1290 cc</td>
+                <td>$48.980.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      <!-- Sección Info -->
+      <section class="info py-5">
+        <div class="container">
+          <div class="row">
+            <!-- Servicio -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body d-flex flex-column align-items-center">
+                   <h2 class="card-title">Servicio</h2>
+                <img src="./imagen/Servicio-1-.png"alt="servicio de mantenimiento para motos KTM"/>
+                  <p class="card-text">Ofrecemos una amplia gama de servicio para tu KTM</p>
+                </div>
+              </div>
+            </div>
+            <!-- Motos Destacadas -->
+            <div class="col-md-6 mb-4">
+              <div class="card h-100 text-center">
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h2 class="card-title">Motos Destacadas</h2>
+                  <img src="./imagen/KTM_Duke_200.png"alt="Duke 200"/>
+                  <p class="card-text">Descubre nuestros modelos más populares y sus especificaciones</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+   </main>
+   
+   <!--Footer-->
+   <footer class="bg-dark text-white text-center py-4">
+     <div class="container">
+       <p class="mb-1">&copy; 2025 KTM Motos - Todos los derechos reservados</p>
+       <p>
+         <a href="#" class="text-white me-3">Facebook</a>
+         <a href="#" class="text-white me-3">Instagram</a>
+         <a href="#" class="text-white">YouTube</a>
+       </p>
+     </div>
+   </footer>
+   
+   <!--Bootstrap JS-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
